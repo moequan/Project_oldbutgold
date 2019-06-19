@@ -44,6 +44,9 @@ img {
   left: 50%;
   transform: translate(-50%, -50%); }
 
+.auto {
+  padding-top: 150px; }
+
 h2 {
   font-weight: bolder;
   font-size: 60px;
@@ -92,6 +95,13 @@ h2 {
   font-family: "Domine", serif;
   font-size: 20px;
   padding-top: 15px; }
+
+.packagecolor {
+  color: #f0d74d;
+  font-size: 25px;
+  border: 2px white double;
+  padding: 10px;
+  font-style: italic; }
 
 .about {
   font-family: "Domine", serif;
