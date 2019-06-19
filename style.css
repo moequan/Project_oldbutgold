@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Domine&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Germania+One&display=swap");
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
+
+body {
+  overflow-x: hidden; }
+
+nav {
+  font-weight: bolder; }
+
+.brand {
+  color: gold;
+  border: 5px white double;
+  font-family: 'Germania One', cursive;
+  padding: 5px; }
+
+.social {
+  font-family: "Domine", serif;
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+img {
+  filter: brightness(70%); }
+
+.bild {
+  position: relative;
+  text-align: center; }
+
+.centered {
+  font-family: "Domine", serif;
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+h2 {
+  font-weight: bolder;
+  font-size: 60px;
+  text-align: center;
+  font-family: "Domine", serif;
+  color: white; }
+
+.oldie {
+  border: 2px white solid;
+  border-radius: 25px;
+  background-color: black; }
+
+a:visited {
+  color: #f0d74d; }
+
+a:link {
+  color: #f0d74d; }
+
+.oldie {
+  padding: 15px;
+  font-weight: bold; }
+
+.cars {
+  margin: 20px;
+  color: white;
+  text-align: center;
+  font-family: "Domine", serif;
+  justify-content: space-between; }
+
+.example {
+  text-align: center;
+  color: white;
+  font-family: "Domine", serif;
+  padding: 20px; }
+
+h2 {
+  font-size: 35px;
+  text-decoration: underline; }
+
+.priceheader {
+  text-align: center;
+  color: white;
+  font-family: "Domine", serif; }
+
+.price {
+  font-family: "Domine", serif;
+  font-size: 20px;
+  padding-top: 15px; }
+
+.about {
+  font-family: "Domine", serif;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding-top: 15px; }
+
+.icons {
+  letter-spacing: 15px;
+  font-size: 32px; }
+
+@media screen and (max-width: 1058px) {
+  .centered {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column; } }
+
+@media screen and (max-width: 700px) {
+  .centered {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column; }
+  .brand {
+    margin-left: 100px; } }
